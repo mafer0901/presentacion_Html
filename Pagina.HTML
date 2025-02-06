@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Desarrolladora Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sección de Encabezado -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hola, soy Maria Fernanda</h1>
+      <p>Desarrolladora Web | Front-End & Back-End</p>
+    </div>
+  </section>
+
+  <!-- Sección Sobre mí -->
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>Soy una desarrolladora web apasionada por crear soluciones innovadoras con tecnología moderna. Me encanta trabajar en proyectos desafiantes que hagan una diferencia.</p>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="projects">
+    <h2>Mis Proyectos</h2>
+    <div class="project-card">
+      <h3>Proyecto 1</h3>
+      <p>Este es un proyecto de ejemplo, donde desarrollé una aplicación web con tecnologías como Python , CSS y FireBase.</p>
+      <a href="https://github.com/mafer0901/loving-coffe-web">https://github.com/mafer0901/loving-coffe-web</a>
+    </div>
+    <div class="project-card">
+      <h3>Proyecto 2</h3>
+      <p>Un proyecto backend donde trabajé con Python creando un escaner de puerto donde permita verificar si la seguridad se ve vulnerada.</p>
+      <a href="https://github.com/mafer0901/Escaner-puertos-practic">https://github.com/mafer0901/Escaner-puertos-practic</a>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Si deseas contactarme, puedes enviarme un correo a: <a href="mailto:mariaddan09@gmail.com">mariaddan09@gmail.com</a></p>
+    <p>Aqui dejo mi github : <a href="https://github.com/mafer0901">https://github.com/mafer0901</a></p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Maria Fernanda. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
+<style> /* Reset básico de estilos */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Estilo global */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fefdff;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    /* Estilo del header y la navegación */
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 30px;
+    }
+    
+    nav ul li {
+      font-weight: bold;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+      color: #711886;
+    }
+    
+    /* Sección Hero */
+    #hero {
+      background-color: #a600ffa5;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    
+    #hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    
+    #hero p {
+      font-size: 1.2rem;
+    }
+    
+    /* Sección sobre mí */
+    #about {
+      max-width: 800px;
+      margin: 60px auto;
+      text-align: center;
+      padding: 0 20px;
+    }
+    
+    #about h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    
+    #about p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+    
+    /* Sección de Proyectos */
+    #projects {
+      background-color: #ffffff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    
+    #projects h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    
+    .project-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .project-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .project-card p {
+      color: #777;
+      font-size: 1rem;
+    }
+    
+    /* Sección de Contacto */
+    #contact {
+      background-color: #f4f4f4;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    
+    #contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    
+    #contact p {
+      font-size: 1.1rem;
+    }
+    
+    #contact a {
+      color: #9000ff70;
+      text-decoration: none;
+    }
+    
+    #contact a:hover {
+      color: #bea3ed;
+    }
+    
+    /* Pie de página */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    
+    /* Estilos para dispositivos pequeños (responsive) */
+    @media screen and (max-width: 768px) {
+      #hero h1 {
+        font-size: 2.5rem;
+      }
+    
+      #hero p {
+        font-size: 1rem;
+      }
+    
+      .project-card {
+        width: 90%;
+        margin: 10px auto;
+      }
+    
+      nav ul {
+        flex-direction: column;
+      }
+    
+      nav ul li {
+        margin-bottom: 10px;
+      }
+    }
+    </style># presentacion_Html
